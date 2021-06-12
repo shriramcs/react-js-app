@@ -1,4 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+.Header {
+  background-color: #fff;
+  color: #121212;
+  border-bottom: 1px solid rgb(175, 173, 173);
+  -webkit-box-shadow: 0 10px 10px -10px #777;
+  -moz-box-shadow: 0 10px 10px -10px #777;
+  box-shadow: 0 10px 10px -10px #777;
+}
+
+.LandingPage {
+  background-color: lightgreen;
+  border-radius: 1rem;
+  min-height: 200px;
+  padding: 1rem;
+  margin: 1rem;
 }
